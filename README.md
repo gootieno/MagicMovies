@@ -1,4 +1,4 @@
-# PixieDust
+# MagicMovies
 # Disney Countdown & Trivia Game
 
 ## Description
