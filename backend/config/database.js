@@ -1,4 +1,4 @@
-const { username, password, database, host } = require("./index").db;
+const { username, password, database, host } = require("./index.js").db;
 
 module.exports = {
   development: {
@@ -14,7 +14,7 @@ module.exports = {
     dialectOptions: {
       ssl: {
         require: true,
-        rejectUnauthorized: false, // YOU NEED THIS TO FIX UNHANDLED REJECTION
+        rejectUnauthorized: false, // <<<<<<< YOU NEED THIS TO FIX UNHANDLED REJECTION
       },
     },
     seederStorage: "sequelize",
